@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Figma:The collaberative</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div class="navbar">
+
+    <div class="logo"> <img
+        src=" data:image/png;base64,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"
+        alt=""></div>
+
+    <p>Products</p>
+    <p> Enterprices</p>
+    <p> Resources</p>
+    <p> Community</p>
+    <p> Contact Sales</p>
+    <p>Login</p>
+
+    <div class="b1"> <button> <b>Get Started For Free</b></button></div>
+
+  </div>
+  <h1 class="head1">
+    How You Design <i class="fa-solid fa-pen-nib"></i>,align & , and built <br> <i class="fa-solid fa-chevron-left"></i>
+    <i class="fa-solid fa-chevron-right"></i> matters. Do it together with Figma
+  </h1>
+  <button class="b2">
+    <h2>Get Started</h2>
+  </button>
+  <br>
+  <br>
+  <img class="img1" src="https://miro.medium.com/v2/resize:fit:1400/1*xXM0llLX_7AMYoLFbSHk3w.png">
+  <br>
+  <br>
+  <br>
+  <br>
+  <h4 class="sliderh">Trusted by team at</h4>
+
+
+
+
+  <div class="box1">
+    <h4 class="bh1"> Design</h4>
+    <h1 class=" bh2">Co-create in one space</h1>
+    <p class="d1">Work together in real time and <br> empower designers to create in <br> new ways. Keep workflows <br>
+      efficient with tools that give every <br> team visibility throughout <br> the process.</p>
+    <div class="b3"> <button> Explore Design </button></div>
+    <img class="box1img" src="https://shadanshakil.github.io/css-5/figma2.png" alt="">
+  </div>
+
+  
+  <div class="box2">
+    <h4 class="bh3"> Prototype</h4>
+    <h1 class=" bh4">Make designs feel Real</h1>
+    <p class="d2"> Create realistic prototype that<br>allow for quick iteration on flows<br> and states.Test the
+      full,interactive <br> experience to get better feedback, <br> sooner.</p>
+      
+    <div class="b4"> <button> Explore Prototyping</button></div>
+    <img class="box2img" src="https://shadanshakil.github.io/css-5/figma3.png">
+<div/>
+  <div class="box3">
+    <h4 class="bh5"> Dev Mode</h4>
+    <h1 class=" bh6">Bring design and dev closer</h1>
+    <span class="test"><img class="box2img" src="https://shadanshakil.github.io/css-5/figma4.png">
+      
+    <span class="test1">  <p class="d3"> Creating a Dev mode a new  <br> space in Figma for Developer <br> bring clearity to design and give
+      <br> developer the tools they need to <br>  translate them into code.</p>
+      <div class="b5"> <button>  Explore Dev Mode</button></div></span>
+    </span>
+    
+      
+    
+<div/>
+  <div class="box4">
+    <h4 class="bh7">Design systems</h4>
+    <h1 class=" bh8">Scale design and development</h1>
+    <p class="d4"> Save time and keep things<br>consistent with reusable assets in<br> shared libraries. Standardize components and
+      <br> variables so that there’s more time  <br>  for exploration, and less time doing busy work.</p>
+      
+    <div class="b6"> <button> Explore Design system.</button></div>
+    <img class="box4img" src="https://shadanshakil.github.io/css-5/figma5.png">
+<div/>
+
+
+<div class="lastbox">
+
+  <span class="bl">
+    <h1 class="lh">
+      Start aligning <br>
+      with Figma
+    </h1>
+    <button class="lb"> <b>Get Started for Free</b> </button>
+  </span>
+<span>
+<ul>
+  <li> Use Cases</li>
+ <li> UI design </li>
+ <li> UI design </li>
+<li>  Wireframing</li>
+<li>  Diagramming</li>
+ <li> Brainstorming</li>
+<li>  Online whiteboard</li>
+<li>  Team collaboration</li>
+ <li> Agile workflows</li>
+ <li> Strategic planning</li>
+<li>  Mind mapping</li>
+ <li> Concept mapping</li>
+ <li> Org charts</li>
+<li>  Online sticky notes</li>
+<li>  Templates</li>
+ <li> Remote design</li>
+<li>  Agencis</li>
+ <li> Figma for education</li>
+</ul>
+
+
+<ul>
+  <li>Explore</li>
+  <li>Design features</li>
+<li>  Prototyping features</li>
+<li>  Design systems features</li>
+<li>  Development Features</li>
+<li>  Collaboration features</li>
+<li>  Design process</li>
+<li>  FigJam</li>
+ <li> What's new</li>
+<li>  Releases</li>
+<li>  Pricing</li>
+<li>  Enterprise</li>
+<li>  Organization</li>
+<li>Customers</li>
+   <li> Professional</li>
+
+<li>  Security</li>
+  <li>Integrations</li>
+<li>  Contact</li>
+</ul>
+<ul></ul>
+<ul></ul>
+
+
+
+</span>
+</div>
+
+
+</body>
+
+</html>
